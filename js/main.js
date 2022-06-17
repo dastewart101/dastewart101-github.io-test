@@ -6,5 +6,11 @@ const moveLines = document.querySelector(".btn1");
 
 moveLines.addEventListener("click", () => {
 	document.body.classList.toggle("open1");
-	// console.log(moveLines);
+	console.log(moveLines);
 });
+
+/* const xclClick = document.querySelector("body");
+
+xclClick.addEventListener("click", () => {
+	document.body.classList.remove("open1");
+}); */
